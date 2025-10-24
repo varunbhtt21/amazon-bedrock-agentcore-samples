@@ -1,0 +1,12 @@
+# Core requirements for Simple Agent
+bedrock-agentcore>=0.1.0
+boto3>=1.34.0
+uvicorn>=0.23.0
+fastapi>=0.100.0
+python-dotenv>=1.0.0
+
+# Optional: For enhanced agent capabilities
+strands-agents>=0.1.0  # If you want to use Strands framework later
+
+# Development tools
+requests>=2.31.0  # For testing HTTP endpoints
